@@ -31,7 +31,6 @@ public class Application {
         GirlFriend girlFriend = new GirlFriend("李玲尔",
                 "北京市", "朱朝靖心里", "1996-08-08", "2021-04-16", "o253p6U4rzqQhKVzPtWkONT1s7Sg");
         Wx.sendTemplateMessage(MessageFactory.resolveMessage(girlFriend));
-
        
     }
 
